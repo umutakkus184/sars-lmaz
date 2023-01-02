@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(images/silah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+}
+
+nav > ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+nav > ul > li{
+    padding: 1rem;
+    background-color: rgb(249, 251, 251);
+    border-radius: 25px;
+}
+
+nav > ul > li > a,
+nav > a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+/*
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+ul#menu li{
+    left: 100px;
+    top: 40px;
+    position: relative;
+    font-size: 30px;
+    
+}
+ul li a{
+    text-decoration: none;
+    float: left;
+    margin: 30px;
+    padding: 25px;
+    background-color: rgb(251, 247, 247);
+    border-radius:25px;
+    color: rgb(12, 0, 0);
+    transition: all 1s ease-in;
+}
+ul li a:hover{
+   transform: scale(1.1);
+}
+*/
+
